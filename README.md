@@ -41,7 +41,7 @@ Proposal:
     have the time to do so and may just fallback on free assets either from the tutorial or the internat as a whole.
     
 - Workload:
-  - Since I will be going in alone I will be working on all of this at once. I, at the writting of this README, do not have a 
-    partner to review my code and hopefully I find one to do this. 
+  - Since I will be going in alone I will be working on all of this at once. 
+  - UPDATE** I have a person to review my code, his name is Nelson and is in the same class.
     
   
