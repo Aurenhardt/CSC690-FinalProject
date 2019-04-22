@@ -17,6 +17,7 @@
 		F3A06DE32267DE76003FEF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A06DE12267DE76003FEF70 /* LaunchScreen.storyboard */; };
 		F3A06DEE2267DE76003FEF70 /* CSC690_Galaga_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A06DED2267DE76003FEF70 /* CSC690_Galaga_TutorialTests.swift */; };
 		F3A06DF92267DE76003FEF70 /* CSC690_Galaga_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A06DF82267DE76003FEF70 /* CSC690_Galaga_TutorialUITests.swift */; };
+		F3A06E07226E20B4003FEF70 /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3A06E06226E209B003FEF70 /* theBoldFont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F3A06DF42267DE76003FEF70 /* CSC690 Galaga TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSC690 Galaga TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A06DF82267DE76003FEF70 /* CSC690_Galaga_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC690_Galaga_TutorialUITests.swift; sourceTree = "<group>"; };
 		F3A06DFA2267DE76003FEF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A06E06226E209B003FEF70 /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F3A06DD82267DE74003FEF70 /* GameScene.swift */,
 				F3A06DDA2267DE74003FEF70 /* GameViewController.swift */,
 				F3A06DDC2267DE74003FEF70 /* Main.storyboard */,
+				F3A06E06226E209B003FEF70 /* theBoldFont.ttf */,
 				F3A06DDF2267DE76003FEF70 /* Assets.xcassets */,
 				F3A06DE12267DE76003FEF70 /* LaunchScreen.storyboard */,
 				F3A06DE42267DE76003FEF70 /* Info.plist */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A06E07226E20B4003FEF70 /* theBoldFont.ttf in Resources */,
 				F3A06DDE2267DE74003FEF70 /* Main.storyboard in Resources */,
 				F3A06DD52267DE74003FEF70 /* GameScene.sks in Resources */,
 				F3A06DE02267DE76003FEF70 /* Assets.xcassets in Resources */,
