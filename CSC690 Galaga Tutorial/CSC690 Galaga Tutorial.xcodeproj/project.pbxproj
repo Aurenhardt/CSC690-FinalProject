@@ -19,6 +19,7 @@
 		F3A06DF92267DE76003FEF70 /* CSC690_Galaga_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A06DF82267DE76003FEF70 /* CSC690_Galaga_TutorialUITests.swift */; };
 		F3A06E07226E20B4003FEF70 /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3A06E06226E209B003FEF70 /* theBoldFont.ttf */; };
 		F3A06E09226F9098003FEF70 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A06E08226F9098003FEF70 /* GameOverScene.swift */; };
+		F3A06E0B2272164D003FEF70 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A06E0A2272164D003FEF70 /* MainMenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		F3A06DFA2267DE76003FEF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3A06E06226E209B003FEF70 /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
 		F3A06E08226F9098003FEF70 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		F3A06E0A2272164D003FEF70 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				F3A06DD42267DE74003FEF70 /* GameScene.sks */,
 				F3A06DD62267DE74003FEF70 /* Actions.sks */,
 				F3A06DD82267DE74003FEF70 /* GameScene.swift */,
+				F3A06E0A2272164D003FEF70 /* MainMenuScene.swift */,
 				F3A06E08226F9098003FEF70 /* GameOverScene.swift */,
 				F3A06DDA2267DE74003FEF70 /* GameViewController.swift */,
 				F3A06DDC2267DE74003FEF70 /* Main.storyboard */,
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A06E0B2272164D003FEF70 /* MainMenuScene.swift in Sources */,
 				F3A06DD92267DE74003FEF70 /* GameScene.swift in Sources */,
 				F3A06DDB2267DE74003FEF70 /* GameViewController.swift in Sources */,
 				F3A06E09226F9098003FEF70 /* GameOverScene.swift in Sources */,
