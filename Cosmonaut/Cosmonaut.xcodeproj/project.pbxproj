@@ -26,6 +26,10 @@
 		F3A06E59227E4237003FEF70 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A06E58227E4237003FEF70 /* GameOverScene.swift */; };
 		F3A06E5B227E437F003FEF70 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A06E5A227E437F003FEF70 /* MainMenuScene.swift */; };
 		F3A06E5D227E4B56003FEF70 /* EditShipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A06E5C227E4B56003FEF70 /* EditShipScene.swift */; };
+		F3A06E622283ABEE003FEF70 /* 8-Bit-SFX_Explosion_02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3A06E612283ABED003FEF70 /* 8-Bit-SFX_Explosion_02.mp3 */; };
+		F3A06E642283AC16003FEF70 /* Ouroboros.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3A06E632283AC16003FEF70 /* Ouroboros.mp3 */; };
+		F3A06E662283B17E003FEF70 /* Laser_Shoot7.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3A06E652283B17E003FEF70 /* Laser_Shoot7.wav */; };
+		F3A06E682283B257003FEF70 /* Beep8.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3A06E672283B257003FEF70 /* Beep8.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		F3A06E58227E4237003FEF70 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		F3A06E5A227E437F003FEF70 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		F3A06E5C227E4B56003FEF70 /* EditShipScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditShipScene.swift; sourceTree = "<group>"; };
+		F3A06E612283ABED003FEF70 /* 8-Bit-SFX_Explosion_02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "8-Bit-SFX_Explosion_02.mp3"; sourceTree = "<group>"; };
+		F3A06E632283AC16003FEF70 /* Ouroboros.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ouroboros.mp3; sourceTree = "<group>"; };
+		F3A06E652283B17E003FEF70 /* Laser_Shoot7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Laser_Shoot7.wav; sourceTree = "<group>"; };
+		F3A06E672283B257003FEF70 /* Beep8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beep8.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +140,12 @@
 				F3A06E4C227CF4C4003FEF70 /* PlayerShip.swift */,
 				F3A06E54227E34A1003FEF70 /* LabelManager.swift */,
 				F3A06E50227E2CB3003FEF70 /* EnemyShip.swift */,
+				F3A06E632283AC16003FEF70 /* Ouroboros.mp3 */,
 				F3A06E202273C7EB003FEF70 /* GameViewController.swift */,
+				F3A06E652283B17E003FEF70 /* Laser_Shoot7.wav */,
+				F3A06E612283ABED003FEF70 /* 8-Bit-SFX_Explosion_02.mp3 */,
 				F3A06E222273C7EB003FEF70 /* Main.storyboard */,
+				F3A06E672283B257003FEF70 /* Beep8.wav */,
 				F3A06E252273C7EE003FEF70 /* Assets.xcassets */,
 				F3A06E272273C7EE003FEF70 /* LaunchScreen.storyboard */,
 				F3A06E52227E3427003FEF70 /* Russian.ttf */,
@@ -265,13 +277,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A06E682283B257003FEF70 /* Beep8.wav in Resources */,
 				F3A06E53227E3427003FEF70 /* Russian.ttf in Resources */,
 				F3A06E242273C7EB003FEF70 /* Main.storyboard in Resources */,
 				F3A06E1B2273C7EB003FEF70 /* GameScene.sks in Resources */,
+				F3A06E622283ABEE003FEF70 /* 8-Bit-SFX_Explosion_02.mp3 in Resources */,
 				F3A06E262273C7EE003FEF70 /* Assets.xcassets in Resources */,
 				F3A06E292273C7EE003FEF70 /* LaunchScreen.storyboard in Resources */,
 				F3A06E57227E3F64003FEF70 /* Russian Dollmaker.ttf in Resources */,
 				F3A06E1D2273C7EB003FEF70 /* Actions.sks in Resources */,
+				F3A06E662283B17E003FEF70 /* Laser_Shoot7.wav in Resources */,
+				F3A06E642283AC16003FEF70 /* Ouroboros.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

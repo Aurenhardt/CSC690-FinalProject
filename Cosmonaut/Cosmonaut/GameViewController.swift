@@ -9,10 +9,25 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import AVFoundation
 
 class GameViewController: UIViewController {
 
+    var backingAudio = AVAudioPlayer()
+    
     override func viewDidLoad() {
+        
+        guard let filePath = Bundle.main.path(forResource: "Ouroboros", ofType: "mp3") else{
+            return
+        }
+        let audioURL = URL(fileURLWithPath: filePath)
+        
+        do { backingAudio = try AVAudioPlayer(contentsOf: audioURL)}
+        catch{ return print("Error Cannot find Audio File")}
+        
+        backingAudio.numberOfLoops = -1
+        backingAudio.play()
+        
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {

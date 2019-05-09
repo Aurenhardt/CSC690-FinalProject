@@ -22,12 +22,12 @@ class EnemyShip{
         enemy.setScale(1)
         enemy.zPosition = 2
         enemy.physicsBody = SKPhysicsBody(rectangleOf: enemy.size)
-        enemy.physicsBody!.affectedByGravity = false
+        enemy.physicsBody?.affectedByGravity = false
         
-        enemy.physicsBody!.affectedByGravity = false
-        enemy.physicsBody!.categoryBitMask = PhysicsCategories.Enemy
-        enemy.physicsBody!.collisionBitMask = PhysicsCategories.None
-        enemy.physicsBody!.contactTestBitMask = PhysicsCategories.Player | PhysicsCategories.Bullet
+        enemy.physicsBody?.affectedByGravity = false
+        enemy.physicsBody?.categoryBitMask = PhysicsCategories.Enemy
+        enemy.physicsBody?.collisionBitMask = PhysicsCategories.None
+        enemy.physicsBody?.contactTestBitMask = PhysicsCategories.Player | PhysicsCategories.Bullet
         
         dx = endPoint.x - startPoint.x
         dy = endPoint.y - startPoint.y
@@ -41,8 +41,12 @@ class EnemyShip{
         return self.enemy
     }
     
-    func getPlayerPhysicsBody()->SKPhysicsBody{
-        return enemy.physicsBody!//bad optional unwrap
+    func getEnemyPhysicsBody()->SKPhysicsBody{
+        guard let enemyBody = enemy.physicsBody else{
+            return SKPhysicsBody(rectangleOf: enemy.size)
+        }
+        return enemyBody
+        //return enemy.physicsBody!//bad optional unwrap
         
     }
     

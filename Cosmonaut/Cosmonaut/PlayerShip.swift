@@ -44,11 +44,11 @@ class PlayerShip{
         
         player.zPosition = 2
         player.physicsBody = SKPhysicsBody(rectangleOf: player.size)
-        player.physicsBody!.affectedByGravity = false//bad optional unwrap
+        player.physicsBody?.affectedByGravity = false//bad optional unwrap
         
-        player.physicsBody!.categoryBitMask = PhysicsCategories.Player
-        player.physicsBody!.collisionBitMask = PhysicsCategories.None
-        player.physicsBody!.contactTestBitMask = PhysicsCategories.Enemy
+        player.physicsBody?.categoryBitMask = PhysicsCategories.Player
+        player.physicsBody?.collisionBitMask = PhysicsCategories.None
+        player.physicsBody?.contactTestBitMask = PhysicsCategories.Enemy
         
     }
     
@@ -57,8 +57,10 @@ class PlayerShip{
     }
     
     func getPlayerPhysicsBody()->SKPhysicsBody{
-        return player.physicsBody!//bad optional unwrap
-        
+        guard let playerBody = player.physicsBody else{
+             return SKPhysicsBody(rectangleOf: player.size)
+        }
+        return playerBody
     }
 
     
