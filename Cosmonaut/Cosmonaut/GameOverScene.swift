@@ -48,8 +48,8 @@ class GameOverScene: SKScene {
         
         
         var highScoreNumber = defaults.integer(forKey: "highScoreSaved")
-        print(highScoreNumber)
-        print(gameScore)
+        //print(highScoreNumber)
+        //print(gameScore)
         
         if gameScore>highScoreNumber{
             highScoreNumber = gameScore
@@ -92,6 +92,7 @@ class GameOverScene: SKScene {
             if restartLabel.contains(pointOfTouch){
                 self.restartLabel.run(selectSound)
                 let sceneToMoveTo = GameScene(size:self.size)
+                gameScore = 0
                 sceneToMoveTo.scaleMode = self.scaleMode
                 let myTransition = SKTransition.fade(withDuration: 1)
                 
@@ -102,6 +103,7 @@ class GameOverScene: SKScene {
             if self.mainMenuLabel.contains(pointOfTouch){
                 self.mainMenuLabel.run(selectSound)
                 let sceneToMoveTo = MainMenuScene(size: self.size)
+                gameScore = 0
                 sceneToMoveTo.scaleMode = self.scaleMode
                 let myTransition = SKTransition.fade(withDuration: 0.5)
                 self.view!.presentScene(sceneToMoveTo,transition: myTransition)

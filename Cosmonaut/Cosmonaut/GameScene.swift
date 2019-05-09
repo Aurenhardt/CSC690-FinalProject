@@ -108,6 +108,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
 
         self.isValid = true;
         
+        gameScore = 0
         let fadeOutAction = SKAction.fadeOut(withDuration: 0.5)
         let deleteAction = SKAction.removeFromParent()
         let deleteSequence = SKAction.sequence([selectSound,fadeOutAction,deleteAction])
