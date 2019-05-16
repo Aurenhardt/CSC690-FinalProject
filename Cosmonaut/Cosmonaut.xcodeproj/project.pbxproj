@@ -30,6 +30,7 @@
 		F3A06E642283AC16003FEF70 /* Ouroboros.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3A06E632283AC16003FEF70 /* Ouroboros.mp3 */; };
 		F3A06E662283B17E003FEF70 /* Laser_Shoot7.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3A06E652283B17E003FEF70 /* Laser_Shoot7.wav */; };
 		F3A06E682283B257003FEF70 /* Beep8.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3A06E672283B257003FEF70 /* Beep8.wav */; };
+		F3A06E6A22863BD1003FEF70 /* CreditsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A06E6922863BD1003FEF70 /* CreditsScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		F3A06E632283AC16003FEF70 /* Ouroboros.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ouroboros.mp3; sourceTree = "<group>"; };
 		F3A06E652283B17E003FEF70 /* Laser_Shoot7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Laser_Shoot7.wav; sourceTree = "<group>"; };
 		F3A06E672283B257003FEF70 /* Beep8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beep8.wav; sourceTree = "<group>"; };
+		F3A06E6922863BD1003FEF70 /* CreditsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,10 +136,11 @@
 				F3A06E1C2273C7EB003FEF70 /* Actions.sks */,
 				F3A06E1E2273C7EB003FEF70 /* GameScene.swift */,
 				F3A06E4E227E1FB7003FEF70 /* EnemySpawner.swift */,
-				F3A06E58227E4237003FEF70 /* GameOverScene.swift */,
+				F3A06E4C227CF4C4003FEF70 /* PlayerShip.swift */,
 				F3A06E5C227E4B56003FEF70 /* EditShipScene.swift */,
 				F3A06E5A227E437F003FEF70 /* MainMenuScene.swift */,
-				F3A06E4C227CF4C4003FEF70 /* PlayerShip.swift */,
+				F3A06E6922863BD1003FEF70 /* CreditsScene.swift */,
+				F3A06E58227E4237003FEF70 /* GameOverScene.swift */,
 				F3A06E54227E34A1003FEF70 /* LabelManager.swift */,
 				F3A06E50227E2CB3003FEF70 /* EnemyShip.swift */,
 				F3A06E632283AC16003FEF70 /* Ouroboros.mp3 */,
@@ -315,6 +318,7 @@
 				F3A06E4D227CF4C4003FEF70 /* PlayerShip.swift in Sources */,
 				F3A06E1F2273C7EB003FEF70 /* GameScene.swift in Sources */,
 				F3A06E59227E4237003FEF70 /* GameOverScene.swift in Sources */,
+				F3A06E6A22863BD1003FEF70 /* CreditsScene.swift in Sources */,
 				F3A06E5B227E437F003FEF70 /* MainMenuScene.swift in Sources */,
 				F3A06E51227E2CB3003FEF70 /* EnemyShip.swift in Sources */,
 				F3A06E4F227E1FB7003FEF70 /* EnemySpawner.swift in Sources */,
